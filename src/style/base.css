@@ -1,0 +1,59 @@
+@charset "UTF-8";
+html {
+  color: #232428;
+  font-family: MicrosoftYaHei;
+}
+
+body {
+  min-width: 1200px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 版心 1200px*/
+.center-wrap {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.center-min-wrap {
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 清除浮动*/
+.clearfix {
+  overflow: hidden;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+/* 单行显示，多余文本显示省略号*/
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 多行显示，多余文本显示省略号*/
+.ellipsis-Two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+/*# sourceMappingURL=base.css.map */
