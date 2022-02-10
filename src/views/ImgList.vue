@@ -32,6 +32,7 @@
         font-family: MicrosoftYaHei;
         color: #232428;
         line-height: 24px;
+        height: 48px;
       }
     }
   }

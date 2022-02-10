@@ -9,6 +9,8 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 
 import './utils'
 import './style/reset.css'

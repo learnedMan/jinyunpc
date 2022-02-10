@@ -1,6 +1,8 @@
 const path = require('path')
 
 module.exports = {  
+  // 浏览器兼容
+  transpileDependencies:["swiper","dom7"],
   // 部署应用包时的基本 URL,用法和 webpack 本身的 output.publicPath 一致
   publicPath: './',  
   // 输出文件目录

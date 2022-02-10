@@ -68,6 +68,7 @@
           font-family: MicrosoftYaHei;
           color: #FFFFFF;
           line-height: 28px;
+          height: 56px;
         }
       }
       .highlightpagination{
