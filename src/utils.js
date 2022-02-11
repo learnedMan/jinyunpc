@@ -2,7 +2,11 @@ import router from './router'
 import Vue from 'vue'
 Vue.prototype.todetails = (newsItem) =>{
     if(newsItem?.link?.type=='outer_link'){
-        window.open(newsItem.link.content);
+		let url = newsItem.link.content;
+		if (url.indexOf("http") == -1) { 
+			url = "http://" + url; 
+		} 
+        window.open(url);
     }else{
         router.push({ name: 'Details', params: {id:newsItem.id} });
     }
