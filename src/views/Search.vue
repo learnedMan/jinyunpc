@@ -13,6 +13,8 @@
     overflow: hidden;
     box-sizing: border-box;
     .input__textbox{
+      display: flex;
+      align-items: center;
       box-sizing: border-box;
       text-align: left;
       width: 720px;
